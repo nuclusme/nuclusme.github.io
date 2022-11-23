@@ -1,0 +1,358 @@
+.box-black.price-area {
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    margin-top: 90px
+}
+
+.price-box {
+    text-align: right;
+    width: 50%;
+    margin: 40px 0 0
+}
+
+.price-bg {
+    background: #ebebe9;
+    border-radius: 20px;
+    padding: 0 0 30px
+}
+
+.top-title {
+    background: #dbdbd9;
+    padding: 17px 10px 9px;
+    text-align: center;
+    border-radius: 20px 20px 0 0 
+}
+
+.bottom-title {
+    background: #dbdbd9;
+    letter-spacing: 0;
+    padding: 17px 10px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: -30px;
+    margin-top: 20px
+}
+
+.price-box h5 {
+    color: #777;
+    font-size: 16px;
+    margin: 0;
+}
+
+.price-box .top-title p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    text-align: center !important;
+}
+
+.price-box p {
+    font-size: 16px;
+    color: #555;
+    margin: 0
+}
+
+.price-box p span {
+    margin-bottom: 0;
+    font-size: 16px !important;
+    background: #f7efd5;
+    color: #000 !important;
+    padding: 6px !important;
+    line-height: 17px;
+    display: inline-block;
+    border-radius: 10px 6px 10px 6px;
+}
+
+.price-w {
+    margin: 0 50px
+}
+
+.price-info {
+    margin: 30px 0;
+    border-bottom: 2px solid #d3d3d1;
+    padding: 0 0 20px
+}
+
+.price-info p {
+    font-size: 18px;
+    color: #999;
+    text-align: center !important;
+    line-height: 38px
+}
+
+.price-info strong {
+    display: block;
+    font-size: 48px;
+    color: #000;
+}
+
+.price-box h4 {
+    margin: 0;
+    font-size: 21px;
+    color: #000;
+    letter-spacing: -.5px;
+    text-transform: none;
+    text-align: right;
+
+}
+
+.price-box ul {
+    margin: 15px 0 25px;
+    border-bottom: 2px solid #d3d3d1;
+    padding-bottom: 25px
+}
+
+.price-box li {
+    font-size: 16px;
+    color: #555;
+    list-style: none;
+    padding: 0 34px 0 0 ;
+    margin-bottom: 5px;
+    background: url(../img/shape/path-copy-3.svg) no-repeat right 3px
+}
+
+.price-box li.not {
+    opacity: .5;
+    margin-bottom: 5px;
+    background: url(../images/xmark-solid.svg) no-repeat right -2px;
+    background-size: 19px
+}
+
+.price-box .btn-black {
+    width: 100%;
+    text-align: center;
+    margin: 28px 0 15px;
+    font-size: 18px;
+    position: relative;
+    border: 2px solid #000
+}
+
+.price-box .btn-black:hover {
+    background: 0 0;
+    color: #000
+}
+
+.price-box.active .price-bg {
+    margin: -32px -15px 0;
+    position: relative;
+    z-index: 5;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .1)
+}
+
+.active .top-title {
+    background: #f7f7f5;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.active .bottom-title {
+    background: #f7f7f5;
+    border-top: 1px solid #e5e5e5
+}
+
+.active .bottom-title p {
+    text-align: center
+}
+
+.active .price-info,
+.price-box.active ul {
+    border-color: #e5e5e5
+}
+
+.price-box .price-info span.discount {
+    font-size: 14px !important;
+    background: #e02020;
+    border-radius: 4px;
+    color: #fff !important;
+    padding: 3px 6px !important;
+    position: relative;
+    top: -1px
+}
+
+.non-price {
+    text-decoration: line-through;
+    background: 0 0
+}
+
+.price-box .price-info span.non-price {
+    background: 0 0;
+    font-size: 20px !important;
+    color: #999 !important;
+    padding: 0 !important;
+}
+
+.logos-box {
+    text-align: center
+}
+
+.logos-box p {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center !important;
+}
+
+.below-payments p {
+    margin-top: 5px
+}
+
+.price-box .btn:before {
+    display: block
+}
+
+.price-box .btn {
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    margin: 25px 0
+}
+
+.price-box .btn:hover {
+    opacity: 1 !important
+}
+
+.price-box.active h5 {
+    color: #ED2775;
+}
+
+.price-box.active li {
+    background: url(../img/shape/path.svg) no-repeat right 3px;
+    -webkit-background-size: 22px auto;
+    background-size: 22px auto
+}
+
+.price-box li span {
+    color: #fff;
+    background: #72ab00;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 1px 4px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: -2px
+}
+
+.last-text {
+    margin: 38px 0 15px 5px;
+    text-align: center
+}
+
+.last-text p {
+    color: gray;
+    font-size: 14px;
+    margin-left: -15px;
+    margin-top: -10px;
+    text-align: right;
+}
+
+.last-text p strong {
+    color: #a9a9a9;
+    display: block;
+    padding: 4px 26px 0 0;
+    background: url(../img/shape/shape-2.svg) no-repeat right 3px
+}
+
+#header li {
+    position: relative
+}
+
+#header li span {
+    position: absolute;
+    left: -25px;
+    top: 0;
+    background-color: #e02020;
+    color: #fff;
+    font-size: 10px;
+    padding: 1px 4px;
+    border-radius: 4px
+}
+
+.black-box .logo-info .logos {
+    width: 680px
+}
+
+.black-box .logo-info .logos.es {
+    width: 621px
+}
+
+.conversion-area .box-mistakes h3 {
+    letter-spacing: -2px
+}
+
+.s-indent .info-box {
+    margin-bottom: -20px;
+    margin-top: 40px
+}
+
+.info-box.b-indent {
+    margin-bottom: 70px
+}
+
+.tooltip.show {
+    opacity: 1
+}
+
+.tooltip .tooltip-inner {
+    background-color: #444;
+    padding: 10px 15px
+}
+
+.tooltip .arrow {
+    color: #444 !important
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.bs-tooltip-top .arrow::before {
+    border-top-color: #444
+}
+
+.box-green .info-box p span {
+    display: inline;
+    padding: 0 3px
+}
+
+.box-black .last-text p em {
+    font-style: normal
+}
+
+.conversion-area h1 {
+    letter-spacing: -2px
+}
+
+.l-indent {
+    margin: 0 -8px
+}
+
+.info-box .l-indent p span {
+    padding: 3px 8px
+}
+
+.conversion-area .box-white li span {
+    padding: 3px 5px;
+    letter-spacing: -.8px
+}
+
+.container.large {
+    max-width: 1020px
+}
+
+.conversion-area .box-green h3 span {
+    padding: 0
+}
+
+.info-box .numbers li a {
+    font-size: 20px;
+    color: #0091ff
+}
+
+@media only screen and (max-width: 767px) {
+    .price-box {
+        width: auto;
+    }
+}
