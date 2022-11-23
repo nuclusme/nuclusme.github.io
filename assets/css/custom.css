@@ -1,6 +1,13 @@
+body {
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ß
 .mean-nav .others-option {
     left: 0;
 }
+
 .mean-container a.meanmenu-reveal {
     display: none !important;
 }
