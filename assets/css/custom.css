@@ -47,7 +47,8 @@ a:hover.extend {
     bottom: 0;
     z-index: -1;
     border-radius: 30px;
-    background: var(--whiteColor);
+    border: 1px solid var(--mainColor);
+    background: transparent;
   }
   
   .default-btn-line:hover {

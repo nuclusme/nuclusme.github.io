@@ -161,7 +161,9 @@
 .price-box.active ul {
     border-color: #e5e5e5
 }
-
+.price-info i {
+    font-size: 0.3em;
+}
 .price-box .price-info span.discount {
     font-size: 14px !important;
     background: #e02020;
