@@ -81,7 +81,22 @@ a:hover.extend {
     opacity: 0;
     visibility: hidden;
 }
+.features-content .sub-title, .section-title .sub-title {
+    letter-spacing: normal;
+}
+.intro-video-content.text-white h2,.intro-video-content.text-white p,.section-title.text-white h2 {
+    color: var(--whiteColor) !important;
+}
+.price-area .section-title .sub-title {
+    background: transparent;
+    color: var(--whiteColor);
+    -webkit-text-fill-color: unset;
+}
 
+
+.free-trial-content.bg-color form .input-newsletter {
+    text-align: right;
+}
 @media only screen and (max-width: 767px) {
     .pakap-responsive-nav .others-option {
         position: absolute;

@@ -246,18 +246,20 @@
 }
 
 .last-text p {
-    color: gray;
+    color: var(--whiteColor);
     font-size: 14px;
     margin-left: -15px;
     margin-top: -10px;
     text-align: right;
+    background: url(../img/shape/shape-2.svg) no-repeat right 1px;
+    background-size: 1em;
 }
 
 .last-text p strong {
-    color: #a9a9a9;
+    color: var(--whiteColor);
     display: block;
-    padding: 4px 26px 0 0;
-    background: url(../img/shape/shape-2.svg) no-repeat right 3px
+    padding: 0 20px 0 0;
+
 }
 
 #header li {
